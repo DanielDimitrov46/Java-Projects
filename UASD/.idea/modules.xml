@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Data Structures/Data Structures.iml" filepath="$PROJECT_DIR$/Data Structures/Data Structures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_07_20109/TEMA_07_20109.iml" filepath="$PROJECT_DIR$/TEMA_07_20109/TEMA_07_20109.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_09_20109/TEMA_09_20109.iml" filepath="$PROJECT_DIR$/TEMA_09_20109/TEMA_09_20109.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_10_20109/TEMA_10_20109.iml" filepath="$PROJECT_DIR$/TEMA_10_20109/TEMA_10_20109.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_11_20109/TEMA_11_20109.iml" filepath="$PROJECT_DIR$/TEMA_11_20109/TEMA_11_20109.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_12_20109/TEMA_12_20109.iml" filepath="$PROJECT_DIR$/TEMA_12_20109/TEMA_12_20109.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA_13_20109/TEMA_13_20109.iml" filepath="$PROJECT_DIR$/TEMA_13_20109/TEMA_13_20109.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UASD.iml" filepath="$PROJECT_DIR$/UASD.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OOP/CONNECTION_TEMA12_192/CONNECTION_TEMA12_192.iml" filepath="$PROJECT_DIR$/OOP/CONNECTION_TEMA12_192/CONNECTION_TEMA12_192.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UASD/Data Structures/Data Structures.iml" filepath="$PROJECT_DIR$/UASD/Data Structures/Data Structures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-Projects.iml" filepath="$PROJECT_DIR$/.idea/Java-Projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP/JavaCalculator/JavaCalculator.iml" filepath="$PROJECT_DIR$/OOP/JavaCalculator/JavaCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP/OOP.iml" filepath="$PROJECT_DIR$/OOP/OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UASD/TEMA_07_20109/TEMA_07_20109.iml" filepath="$PROJECT_DIR$/UASD/TEMA_07_20109/TEMA_07_20109.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UASD/TEMA_09_20109/TEMA_09_20109.iml" filepath="$PROJECT_DIR$/UASD/TEMA_09_20109/TEMA_09_20109.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UASD/TEMA_10_20109/TEMA_10_20109.iml" filepath="$PROJECT_DIR$/UASD/TEMA_10_20109/TEMA_10_20109.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UASD/TEMA_11_20109/TEMA_11_20109.iml" filepath="$PROJECT_DIR$/UASD/TEMA_11_20109/TEMA_11_20109.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UASD/TEMA_12_20109/TEMA_12_20109.iml" filepath="$PROJECT_DIR$/UASD/TEMA_12_20109/TEMA_12_20109.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UASD/TEMA_13_20109/TEMA_13_20109.iml" filepath="$PROJECT_DIR$/UASD/TEMA_13_20109/TEMA_13_20109.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UASD/UASD.iml" filepath="$PROJECT_DIR$/UASD/UASD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP/exercisesForBiggerBoysss/exercisesForBiggerBoysss.iml" filepath="$PROJECT_DIR$/OOP/exercisesForBiggerBoysss/exercisesForBiggerBoysss.iml" />
+    </modules>
+  </component>
+</project>
