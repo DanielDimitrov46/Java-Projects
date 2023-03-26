@@ -2,35 +2,21 @@ import java.util.Scanner;
 
 public class MathSuperstar2 {
     public static void main(String[] args) {
-        System.out.println("Enter the numbers:");
-        Scanner scn = new Scanner(System.in);
-        int[] arr = new int[10];
-        int max = Integer.MIN_VALUE;
-        int min = Integer.MAX_VALUE;
-        int maxIndex = 0;
-        int minIndex = 0;
-
-
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = scn.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        double firstCylinder = 0;
+        double secondCylinder = 0;
+        String command = scanner.nextLine();
+        double r1 = Double.parseDouble(command.split(",")[0]);
+        double h1 = Double.parseDouble(command.split(",")[1]);
+        double r2 = Double.parseDouble(command.split(",")[2]);
+        double h2 = Double.parseDouble(command.split(",")[3]);
+        firstCylinder = (Math.PI*r1*r1*h1)/1000;
+        secondCylinder = (Math.PI*r2*r2*h2)/1000;
+        if (firstCylinder>secondCylinder){
+            System.out.printf("%.2f",firstCylinder);
+        }else {
+            System.out.printf("%.2f",secondCylinder);
         }
-        for (int i = 0; i < arr.length; i++) {
-            int currentElement = arr[i];
 
-            if (currentElement > max) {
-                max = currentElement;
-                maxIndex = i;
-            }
-            if (currentElement < min) {
-                min = currentElement;
-                minIndex = i;
-
-            }
-        }
-            System.out.println("The max number is :" + max);
-            System.out.println("The index is:" + maxIndex);
-
-            System.out.println("The min number is :" + min);
-            System.out.println("The index is:" + minIndex);
     }
 }
