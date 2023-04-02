@@ -1,3 +1,5 @@
+package Ex3;
+
 public class Principle extends Worker{
     int numberOfStudentsYelledAt = 0;
 

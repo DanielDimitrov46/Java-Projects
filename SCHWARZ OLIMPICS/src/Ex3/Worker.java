@@ -1,3 +1,5 @@
+package Ex3;
+
 abstract class Worker {
     private int workerId;
     private String name;

@@ -1,3 +1,5 @@
+package Ex3;
+
 public class PresentationRoom extends Room{
     public PresentationRoom(int roomnumber, int studentCapacity) {
         super(roomnumber, studentCapacity);

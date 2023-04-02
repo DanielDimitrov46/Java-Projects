@@ -1,3 +1,5 @@
+package Ex3;
+
 abstract class Room {
     private int roomnumber;
     private int studentCapacity;

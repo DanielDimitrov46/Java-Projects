@@ -18,9 +18,11 @@ public class Ex2PravetsStudents {
 //            Integer[] gradesDouble = new Integer[gradesString.length];
             for (int j = 0; j < allGrades.length; j++) {
                 try {
-//                    if (allGrades[j].charAt(1)==','){
-//                        allGrades[j]=allGrades[j].replace(allGrades[j].charAt(1),' ');
-//                    }
+                    if (allGrades[j].length()>1){
+                        if (allGrades[j].charAt(1)==','){
+                            allGrades[j]=allGrades[j].replace(allGrades[j].charAt(1),' ');
+                        }
+                    }
                     gradesDouble.add(Double.parseDouble(allGrades[j]));
 //                    gradesDouble[j] = Integer.parseInt(gradesString[j]);
                 } catch (NumberFormatException nfe) {
@@ -48,17 +50,6 @@ public class Ex2PravetsStudents {
                 averageStudentGrades.put(name,average);
             }
       }
-//            String name = averageStudentGrades.getEntry(i);
-//            ArrayList<Double> current = averageStudentGrades.get(i);
-//            double sum = 0;
-//            for (double grade:
-//                 current) {
-//                sum +=grade;
-//            }
-//                double average = sum/current.size();
-//            if (average>=4.00){
-//                averageStudentGrades.put()
-//            }
         }
 
         System.out.println(averageStudentGrades);
