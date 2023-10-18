@@ -6,24 +6,27 @@ public class Basic_Operations {
         int number = scanner.nextInt();
         int forRecursion = number;
         int result = 0;
+        int maxNumber = Integer.MIN_VALUE;
         while (number != 0) {
             int currentNum = number % 10;
             System.out.println(currentNum);
             result+=currentNum;
+            if(currentNum>maxNumber){
+                maxNumber = currentNum;
+            }
             number /= 10;
         }
+        System.out.println(maxNumber);
         System.out.println(result);
         recursionNum(forRecursion);
-        //obhoshda go
     }
 
-    public static int recursionNum(int num) {
+    public static void recursionNum(int num) {
         int currentNum = num % 10;
         System.out.println(currentNum);
         num /= 10;
         if (num != 0) {
             recursionNum(num);
         }
-        return num;
     }
 }
