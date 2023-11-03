@@ -27,6 +27,23 @@ public class BarStar1 {
                     deliveriesCounterWine++;
                 }else{
                     wine+=quantity;
+                    ordersCounterWine++;while (!command.equals("END")) {
+            String text = command.split(": ")[0];
+            int quantity = Integer.parseInt(command.split(" ")[1]);
+            if (text.equals("Beers")){
+                if (quantity > 0) {
+                    beers+=quantity;
+                    deliveriesCounterBeer++;
+                }else{
+                    beers+=quantity;
+                    ordersCounterBeer++;
+                }
+            }else if (text.equals("Wines")){
+                if (quantity > 0) {
+                    wine+=quantity;
+                    deliveriesCounterWine++;
+                }else{
+                    wine+=quantity;
                     ordersCounterWine++;
                 }
             }else {
