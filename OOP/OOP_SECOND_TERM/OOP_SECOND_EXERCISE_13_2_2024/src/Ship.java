@@ -1,7 +1,7 @@
 public class Ship extends Vehicle implements IsSeaVessel{
     private double deadWeight;
 
-    public Ship(double maxspeed, String model, double price) {
+    public Ship(double maxspeed, String model, double price) throws PriceException {
         super(maxspeed, model, price);
     }
 

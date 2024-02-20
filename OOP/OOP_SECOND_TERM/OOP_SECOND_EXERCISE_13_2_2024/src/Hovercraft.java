@@ -1,7 +1,7 @@
 public class Hovercraft extends Vehicle implements isLandVehicle, IsSeaVessel{
     private int numberOfPassengers;
 
-    public Hovercraft(double maxspeed, String model, double price) {
+    public Hovercraft(double maxspeed, String model, double price) throws PriceException {
         super(maxspeed, model, price);
     }
 

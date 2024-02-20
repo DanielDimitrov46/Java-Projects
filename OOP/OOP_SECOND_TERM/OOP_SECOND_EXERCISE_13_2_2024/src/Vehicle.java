@@ -3,10 +3,10 @@ public abstract class Vehicle {
     private String model;
     private double price;
 
-    public Vehicle(double maxspeed, String model, double price) {
+    public Vehicle(double maxspeed, String model, double price) throws PriceException {
         this.maxspeed = maxspeed;
         this.model = model;
-        this.price = price;
+        setPrice(price);
     }
 
     public double getMaxspeed() {
@@ -29,8 +29,13 @@ public abstract class Vehicle {
         return price;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
+    public void setPrice(double price) throws PriceException {
+        if (price < 0) {
+            throw new PriceException("Nee e validno moj");
+        } else {
+            this.price = price;
+        }
     }
+
     public abstract double checkPromo();
 }

@@ -1,7 +1,7 @@
 public class Car extends Vehicle implements isLandVehicle{
     private int power;
 
-    public Car(double maxspeed, String model, double price, int power) {
+    public Car(double maxspeed, String model, double price, int power) throws PriceException {
         super(maxspeed, model, price);
         this.power = power;
     }
