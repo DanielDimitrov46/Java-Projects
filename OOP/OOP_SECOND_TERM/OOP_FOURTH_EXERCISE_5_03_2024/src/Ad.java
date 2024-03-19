@@ -15,7 +15,6 @@ public class Ad {
     public void setCarList(List<Car> carList) {
         this.carList = carList;
     }
-
     public static void adCar (Car car) throws ExistingCarException {
         if (carList.contains(car)){
             throw new ExistingCarException("Car already exists");
@@ -50,12 +49,12 @@ public class Ad {
         }
     }
     public double highestCarPrice(){
-        double highest = carList.get(0).getPrice();
+        double highestPrice = carList.get(0).getPrice();
         for (Car current: carList) {
-            if(current.getPrice()>highest){
-                highest = current.getPrice();
+            if(current.getPrice()>highestPrice){
+                highestPrice = current.getPrice();
             }
         }
-        return highest;
+        return highestPrice;
     }
 }
